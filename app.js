@@ -11,8 +11,8 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin:"http://localhost:3000",
-  // origin:"https://arkaopss.onrender.com",
+  // origin:"http://localhost:3000",
+  origin:"https://arkaopss.onrender.com",
 
   credentials:true,
 }

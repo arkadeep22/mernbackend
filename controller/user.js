@@ -35,7 +35,7 @@ router.post("/create-user", async (req, res, next) => {
   
       const activationToken = createActivationToken(user);
   
-      const activationUrl = `https://arkaopss.onrender.com/activation/${activationToken}`;
+      const activationUrl = `http://localhost:3000/activation/${activationToken}`;
   
       try {
         await sendMail({
