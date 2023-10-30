@@ -28,7 +28,7 @@ process.on("uncaughtException", (err) => {
     api_secret: process.env.CLOUDINARY_API_SECRET
   })
   
-  
+ console.log("hi") 
 
 
 
